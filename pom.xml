@@ -76,7 +76,17 @@
 			<id>nexus-snapshots</id>
 			<url>http://localhost:8081/repository/snapshots/</url>
 		</snapshotRepository>
+		<repository>
+			<id>nexus-releases</id>
+			<url>http://localhost:8081/repository/releases/</url>
+		</repository>
 	</distributionManagement>
+	
+	<scm>
+		<connection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</connection>
+		<developerConnection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</developerConnection>
+		<url></url>
+	</scm>
 
 	<build>
 		<pluginManagement>
@@ -110,6 +120,17 @@
 						</dependency>
 					</dependencies>
 				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.3</version>
+					<configuration>
+						<tagNameFormat>v@{project.version}</tagNameFormat>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+					</configuration>
+				</plugin>
+				
+				
 			</plugins>
 		</pluginManagement>
 	</build>
