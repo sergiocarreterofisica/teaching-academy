@@ -84,8 +84,8 @@
 	
 	<scm>
 		<connection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</connection>
-		<developerConnection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</developerConnection>
 		<url>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</url>
+		<developerConnection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</developerConnection>
 	</scm>
 
 	<build>
