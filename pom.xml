@@ -83,9 +83,9 @@
 	</distributionManagement>
 	
 	<scm>
-		<connection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</connection>
-		<url>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</url>
-		<developerConnection>scm:git@github.com:sergiocarreterofisica/teaching-academy.git</developerConnection>
+		<connection>scm:git:ssh://git@github.com/sergiocarreterofisica/teaching-academy.git</connection>
+		<url>scm:git:ssh://git@github.com/sergiocarreterofisica/teaching-academy.git</url>
+		<developerConnection>scm:git:ssh://git@github.com/sergiocarreterofisica/teaching-academy.git</developerConnection>
 	</scm>
 
 	<build>
